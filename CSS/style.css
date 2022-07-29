@@ -52,6 +52,18 @@
         justify-content: center;
         text-align: center;
     }
+    .text-deco{
+        white-space: nowrap; 
+        width: 200px;
+        overflow: hidden;
+  text-overflow: ellipsis; 
+    }
+    .working{
+       padding: 0 10px!important
+    }
+    .working-info{
+        margin-top: 0!important;
+    }
     
 }
 
