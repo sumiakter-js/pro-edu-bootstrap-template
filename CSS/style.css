@@ -49,9 +49,7 @@
         justify-content: center;
         text-align: center;
     }
-    #course-desc{
-        text-align: center;
-    }
+    
 }
 
 @media only screen and (max-width:668px) {
@@ -60,6 +58,9 @@
         margin: 0;
         padding: 0;
         
+    }
+    #course-desc{
+        text-align: center;
     }
     .img-border{
         height: 500px;
