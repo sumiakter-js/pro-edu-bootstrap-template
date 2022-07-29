@@ -1,0 +1,77 @@
+.carousel-caption{
+    padding: 0 1.3rem;
+}
+
+/* Button */
+.nav-btn{
+    border-color: #289BDE;
+    color: #289BDE;
+}
+.btn-style{
+    color: #fff;
+    background-color: #289BDE;
+    border: 1px solid #289BDE;
+}
+.register-btn{
+    outline: none;
+    background-color: #fff;
+    color: #289BDE;
+}
+/* working section */
+.bg-color{
+    background-color: 
+    #F4FAFD;
+}
+/* Newslatter */
+#newslater{
+    margin-top: 6rem!important;
+}
+.register-button{
+    margin-right: -9rem;
+}
+/* footer */
+/* social media */
+.social-icon a{
+    font-size: 1.5rem;
+    margin-right: 1em;
+   width: 40px;
+   height: 40px;
+    padding: 20px;
+    border-radius: 100%;
+    background-color: #242424;;
+}
+@media only screen and (max-width:992px){
+    
+    #newslater h2, p{
+        text-align: center;
+    }
+    .register-button{
+        justify-content: center;
+        text-align: center;
+    }
+    #course-desc{
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:668px) {
+    /* slider */
+    #carouselExampleCaptions{
+        margin: 0;
+        padding: 0;
+        
+    }
+    .img-border{
+        height: 500px;
+        border: none!important;
+        border-radius: none!important;
+    }
+    .cours-thumble{
+        width: 500px;
+    }
+    .social-icon a {
+        margin-right: 0.3em;
+        padding: 18px;
+    }
+    
+}
