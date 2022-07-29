@@ -42,7 +42,10 @@
 }
 @media only screen and (max-width:992px){
     
-    #newslater h2, p{
+    #newslater h2{
+        text-align: center;
+    }
+    #newslater p{
         text-align: center;
     }
     .register-button{
